@@ -1,0 +1,102 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  background-color: white;
+  width: 72px;
+  z-index: 200;
+  padding-top: 5px;
+}
+
+.sidebar-link {
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  column-gap: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.download-sidebar-link {
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  column-gap: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+@media (min-width: 1313px) {
+  .sidebar-link {
+    flex-direction: row;
+    width: 175px;
+    height: 46px;
+    justify-content: left;
+    padding-left: 14px;
+    margin-left: 10px;
+    border-radius: 10px;
+  }
+
+  .sidebar-link-text {
+    font-size: 14px;
+    padding-left: 8px;
+  }
+
+  .download-link-text {
+    font-size: 14px;
+    padding-left: 12.5px;
+  }
+
+  .download-sidebar-link {
+    flex-direction: row;
+    width: 170px;
+    height: 46px;
+    justify-content: left;
+    padding-left: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+  }
+
+  .download-sidebar-link img {
+    height: 24px;
+  }
+}
+
+.sidebar-link:hover {
+  background-color: rgb(235, 235, 235);
+  border-radius: 10px;
+}
+
+.download-sidebar-link:hover {
+  background-color: rgb(235, 235, 235);
+  border-radius: 10px;
+}
+
+.sidebar-link img {
+  height: 24px;
+  margin-bottom: 4px;
+}
+
+.download-sidebar-link img {
+  height: 24px;
+  margin-bottom: 4px;
+}
+
+@media (max-width: 1312.9px) {
+  .sidebar-link div {
+    font-family: Roboto, Arial;
+    font-size: 10px;
+  }
+
+  .download-link-text {
+    font-family: Roboto, Arial;
+    font-size: 10px;
+  }
+}

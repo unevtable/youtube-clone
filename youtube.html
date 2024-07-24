@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>YouTube.com Clone</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/video.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="left-section">
+      <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+      <img class="youtube-logo" src="icons/premium-logo.png">
+    </div>
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button">
+        <img class="search-icon" src="icons/search.svg">
+        <div class="tooltip">Search</div>
+      </button>
+      <button class="voice-search-button">
+        <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+    </div>
+    <div class="right-section">
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="icons/upload.svg">
+        <div class="tooltip">Create</div>
+      </div>
+      <div class="notifications-icon-container">
+        <img class="notifications-icon" src="icons/notifications.svg">
+        <div class="notifications-count">7</div>
+        <div class="tooltip">Notifications</div>
+      </div>
+      <img class="current-user-picture" src="channel-pictures/my-channel.PNG">
+    </div>
+  </header>
+
+  <nav class="sidebar">
+    <div class="sidebar-link">
+      <img src="icons/home.svg">
+      <div class="sidebar-link-text">Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/shorts-logo.png">
+      <div class="sidebar-link-text">Shorts</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/subscriptions.svg">
+      <div class="sidebar-link-text">Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/youtube-music.svg">
+      <div class="sidebar-link-text">YouTube Music</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/library.svg">
+      <div class="sidebar-link-text">You</div>
+    </div>
+    <div class="download-sidebar-link">
+      <img src="icons/downloads-logo.png">
+      <div class="download-link-text">Downloads</div>
+    </div>
+  </nav>
+
+  <div class="video-grid">
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://youtu.be/3gt-rxxs-RQ?si=qkoHOflHN_lpqDml">
+          <img class="thumbnail" src="thumbnails/thumb-1.webp">
+        </a>
+        <div class="video-time">2:56</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="profile-picture-container">
+            <a href="https://www.youtube.com/@officialfuturevideos" class="channel-link">
+              <img class="profile-picture" src="channel-pictures/channel-1.jpg"></a>
+            <div class="channel-tooltip">
+              <img src="channel-pictures/channel-1.jpg">
+              <div class="channel-tooltip-container">
+                <div class="name-tooltip"><b>Future</b></div>
+                <div class="sub-tooltip">13.5M subscribers</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <a href="https://youtu.be/3gt-rxxs-RQ?si=qkoHOflHN_lpqDml" class="video-title-link">
+            <p class="video-title">
+              Future - Wicked (Official Music Video)
+            </p>
+          </a>
+          <a href="https://www.youtube.com/@officialfuturevideos" class="video-title-link">
+            <p class="video-author">
+              Future <img class="check-mark" src="icons/check.png">
+            </p>
+          </a>
+          <p class="video-stats">
+            46M views &#183; 7 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumb-2.jpg">
+        <div class="video-time">14:22</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="profile-picture-container">
+            <img class="profile-picture" src="channel-pictures/channel-2.jpg">
+            <div class="channel-tooltip">
+              <img src="channel-pictures/channel-2.jpg">
+              <div class="channel-tooltip-container">
+                <div class="name-tooltip"><b>Jak Knife</b></div>
+                <div class="sub-tooltip">67.5K subscribers</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Stress management with Big Titty Step Sis - Cami Strella
+          </p>
+          <p class="video-author">
+            Jak Knife <img class="check-mark" src="icons/check.png">
+          </p>
+          <p class="video-stats">
+            2.5M views &#183; 1 month ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://youtu.be/8qpXZNbtpY0?si=_VqhyZfx24gR6G7b">
+          <img class="thumbnail" src="thumbnails/thumb-3.webp">
+        </a>
+        <div class="video-time">28:57</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="profile-picture-container">
+            <a href="https://www.youtube.com/@Technicals" class="channel-link">
+              <img class="profile-picture" src="channel-pictures/channel-3.jpg">
+            </a>
+            <div class="channel-tooltip">
+              <img src="channel-pictures/channel-3.jpg">
+              <div class="channel-tooltip-container">
+                <div class="name-tooltip"><b>Technicals</b></div>
+                <div class="sub-tooltip">106K subscribers</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <a href="https://youtu.be/8qpXZNbtpY0?si=_VqhyZfx24gR6G7b" class="video-title-link">
+            <p class="video-title">
+              Solving the Sinatraa Scandal - Detective Tech
+            </p>
+          </a>
+          <p class="video-author">
+            Technicals
+          </p>
+          <p class="video-stats">
+            333K views &#183; 1 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://youtu.be/094y1Z2wpJg?si=8q0ii6UGSUoiafwM">
+          <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+        </a>
+        <div class="video-time">22:09</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="profile-picture-container">
+            <a href="https://www.youtube.com/@veritasium">
+              <img class="profile-picture" src="channel-pictures/channel-4.jpeg">
+            </a>
+            <div class="channel-tooltip">
+              <img src="channel-pictures/channel-4.jpeg">
+              <div class="channel-tooltip-container">
+                <div class="name-tooltip"><b>Veritasium</b></div>
+                <div class="sub-tooltip">15.7M subscribers</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <a href="https://youtu.be/094y1Z2wpJg?si=8q0ii6UGSUoiafwM" class="video-title-link">
+            <p class="video-title">
+              The Simplest Math Problem No One Can Solve - Collatz Conjecture
+            </p>
+          </a>
+          <a href="https://www.youtube.com/@veritasium" class="video-title-link">
+            <p class="video-author">
+              Veritasium <img class="check-mark" src="icons/check.png">
+            </p>
+          </a>
+          <p class="video-stats">
+            40M views &#183; 2 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://youtu.be/dwWs7ZnGekc?si=z3fCGns7vnYZ-_2z">
+          <img class="thumbnail" src="thumbnails/thumb-5.png">
+        </a>
+        <div class="video-time">3:39</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="profile-picture-container">
+            <a href="https://youtu.be/@youngthug">
+              <img class="profile-picture" src="channel-pictures/channel-5.png">
+            </a>
+            <div class="channel-tooltip">
+              <img src="channel-pictures/channel-5.png">
+              <div class="channel-tooltip-container">
+                <div class="name-tooltip"><b>Young Thug</b></div>
+                <div class="sub-tooltip">6.44M subscribers</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <a href="https://youtu.be/dwWs7ZnGekc?si=z3fCGns7vnYZ-_2z" class="video-title-link">
+            <p class="video-title">
+              Young Thug - Relationship (feat. Future) [Official Music Video]
+            </p>
+          </a>
+          <a href="https://youtu.be/@youngthug" class="video-title-link">
+            <p class="video-author">
+              Young Thug <img class="check-mark" src="icons/check.png">
+            </p>
+          </a>
+          <p class="video-stats">
+            118M views &#183; 6 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+          <img class="thumbnail" src="thumbnails/thumb-6.webp">
+        </a>
+        <div class="video-time">19:59</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="profile-picture-container">
+            <a href="https://www.youtube.com/@MrBeast" class="channel-link">
+              <img class="profile-picture" src="channel-pictures/channel-6.jpeg"></a>
+            <div class="channel-tooltip">
+              <img src="channel-pictures/channel-6.jpeg">
+              <div class="channel-tooltip-container">
+                <div class="name-tooltip"><b>MrBeast</b></div>
+                <div class="sub-tooltip">283M subscribers</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg" class="video-title-link">
+            <p class="video-title">
+              Anything You Can Fit In The Circle I'll Pay For
+            </p>
+          </a>
+          <a href="https://www.youtube.com/@MrBeast" class="video-title-link">
+            <p class="video-author">
+              MrBeast <img class="check-mark" src="icons/check.png">
+            </p>
+          </a>
+          <p class="video-stats">
+            294M views &#183; 4 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
